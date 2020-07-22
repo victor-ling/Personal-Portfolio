@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>BMI calculator</title>
+	<link href="../css/BMI_calculator.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="content">
+		<h1 class="heading">BMI calculator</h1>
+		<h2 class="formula">BMI formula: weight (kg) / height<sup>2</sup> (m)</h2>
+		<!-- <p class="weight">Weight (kg): <input type="text" id="weight"></p> -->
+		<!-- <p class="height">Height (m):   <input type="text" id="height"></p> -->
+		<form>
+			<table>
+				<tr class="weight">
+					<td class="left">Weight (kg):</td>
+					<td>
+						<input type="text" id="weight"></td>
+				</tr>
+				<tr class="height">
+					<td class="left">Height (m):</td>
+					<td>
+						<input type="text" id="height"></td>
+				</tr>
+			</table>
+		</form>
+
+		<a href="#">
+			<button onclick="calculate()" class=button>Calculate</button>
+		</a>
+
+		<!--  
+this part below is for special effects on the button
+<div class="button">
+<a href="#">  如果大家要做一個其實不會連到任何地方的連結
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+Neon Button
+</a> 
+-->
+		<!-- <h3 id="answer"></h3> -->
+
+		<a href="#" >
+			<h3 id="answer"></h3>
+		</a>
+	</div>
+	<script type="text/javascript" src="../js/BMI_calculator.js"></script>
+</body>
+
+</html>

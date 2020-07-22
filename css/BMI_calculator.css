@@ -1,0 +1,158 @@
+body{
+	background-color: #031321; /* #1f2833 */
+	color: white;
+	font-family:arial, sans-serif,consolas;
+	font-weight:normal;
+	
+}
+
+.content{
+  width: 700px;
+  margin: auto;
+  padding: 10px;
+}
+
+h1.heading{
+	color: #66fcf1;
+	font-size: 50px;
+	text-transform:uppercase;
+	text-align:left;
+}
+
+.formula{
+	color: #c5c6c7;
+	font-size: 200%;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.weight, .height{
+	font-size:26px;
+}
+
+tr{
+	height:50px;
+}
+
+.left{
+	padding-right:30px;
+	text-align:left;
+	
+}
+
+table{
+	margin-bottom:50px;
+}
+
+#weight, #height{
+	text-align:middle;
+	height:30px;
+	font-size:26px;
+}
+
+#answer{
+	font-size:26px;
+}
+
+#weight:hover, #height:hover, #answer:hover { /* */
+	background-color: black;
+	color: #66fcf1;
+}
+
+#weight:focus, #height:focus { /* */
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	
+}
+
+#answer:hover{
+	background-color: #031321;
+}
+
+
+/*this part below is for special effects on the button*/
+.button{
+	/* transparent button 
+	background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+	outline:none; */
+	
+	/* border: none; */
+	border-color: red;
+	margin: 0px; /*changed from 15px*/
+	padding: 0px 0px; /*changed from 30px*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 0vh; /*vh: view height*/
+	background: none; /*omitted originally #031321*/
+	font-family: consolas;
+	color: #2196f3 ; 
+}
+
+
+a, .button{
+	position: relative;
+	padding: 5px 0px; /*15px 30px*/
+	color: #2196f3 ; 
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 36px;
+	overflow: hidden ;
+	transition: 0.3s;
+	/* display: inline-block; */
+}
+
+.button{
+	padding: 10px 150px;
+	text-align: center;
+	/* border-width: 3px;
+	border-color:red; */
+}
+
+a:hover, button:hover, #answer:hover{
+	color:#255784;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3,0 0 80px #2196f3;
+	
+}
+
+button:hover{
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
